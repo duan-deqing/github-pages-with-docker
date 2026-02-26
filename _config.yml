@@ -23,9 +23,8 @@ twitter_username: duan-deqing
 github_username:  duan-deqing
 
 # Build settings
+# 这两个不需要改，改了会导致无法正常显示
 markdown: kramdown
-
-# Remove minima theme as it is now a regular theme.
 theme: minima
 plugins:
   - jekyll-feed
