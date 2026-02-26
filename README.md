@@ -2,7 +2,11 @@
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
+*Minima 是一个适用于写作者的全能 Jekyll 主题*。它是 Jekyll 的默认（也是第一个）主题。运行 `jekyll new` 命令时就会得到这个主题。
+
 [Theme preview](https://jekyll.github.io/minima/)
+
+[主题预览](https://jekyll.github.io/minima/)
 
 ![minima theme preview](/screenshot.png)
 

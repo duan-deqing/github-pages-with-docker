@@ -3,7 +3,21 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    <!--
+    minima主题的默认标题设置代码
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    -->
+
+    <!-- 自定义：添加 title 或者 title-logo -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {%- if site.title-logo -%}
+        <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }} logo" class="site-logo">
+        {%- else -%}
+          {{ site.title | escape }}
+      {%- endif -%}
+    </a>
+    <!-- end title or title-logo -->
 
     {%- if page_paths -%}
       <nav class="site-nav">

@@ -16,11 +16,31 @@
 title: STYLAN
 email: duan-deqing@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a blog about my learning and work experience in the field of software development. I will share my thoughts, insights, and tips on various topics related to programming, software engineering, and technology in general. I hope that this blog can be a valuable resource for anyone who is interested in learning more about software development and improving their skills.
+  This is a blog about my learning and work experience in the field of software development. 
 baseurl: "/github-pages-with-docker" # the subpath of your site, e.g. /blog
 url: "https://duan-deqing.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: duan-deqing
+
+# minima 已经默认定义的变量
+author: duan-deqing
 github_username:  duan-deqing
+
+# 自定义新的社交链接
+# 具体的设置代码在 _includes/social.html 文件中
+# 格式如下：注意id和username缺一不可，id对应B站UID，username可以随意设置
+# bilibili_id: "18756460"
+# bilibili_username: stylan
+bilibili_id: "18756460"
+bilibili_username: stylan
+
+# 添加一个版权信息，变量标志加年份
+# Copyright: Company Name, Inc.
+copyright: "STYLAN "
+
+# title-logo 自定义变量，指向图片地址，使用时会在标题栏显示图片
+# 而不显示文字标题，图片建议尺寸高度为 50px，支持 png、jpg、svg 等格式
+# 图片地址使用相对路径，相对于站点根目录，例如：/assets/images/logo.png
+# title-logo: /assets/images/logo.png
+title-logo: 
 
 # Build settings
 # 这两个不需要改，改了会导致无法正常显示
